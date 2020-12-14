@@ -1,0 +1,9 @@
+# Creates bash commands locally
+
+news() {
+    conda activate webscrapping
+
+    python3 /home/jfgr/Projects/bbc-news-headline-webscraping/src/main.py
+
+    conda deactivate
+}

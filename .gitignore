@@ -5,3 +5,7 @@
 # Dependencies
 dependencies/dev.txt
 dependencies/common.txt
+
+
+# Bash Commands
+.new_bash_command
