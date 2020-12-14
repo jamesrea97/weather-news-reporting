@@ -16,7 +16,7 @@ def print_reports():
 if __name__ == "__main__":
     scrapper = scrapper.Scrapper()
 
-    if sys.argv[1] == '-d':
+    if len(sys.argv) > 0 and sys.argv[1] == '-d':
         deployment.deploy()
 
     print_reports()
