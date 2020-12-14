@@ -8,4 +8,7 @@ dependencies/common.txt
 
 
 # Bash Commands
-.new_bash_command
+.news_bash_command
+
+# git
+.gitignore
