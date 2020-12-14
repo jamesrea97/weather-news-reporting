@@ -8,7 +8,7 @@ One can easily create a `bash` script in order to run right from their terminal.
 
 ## Dependencies
 Two Python libraries were used in order to webscrape: 
-- `requests' to request HTML pages.
+- `requests` to request HTML pages.
 - `beautifulsoup4` to read web HTML pages.
  
  Details of deployment are discussed below:
