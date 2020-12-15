@@ -3,20 +3,15 @@
 import sys
 import scrapper
 import deployment
-
-
-def print_reports():
-    ''' Prints reports to the Terminal '''
-    print('\n')
-    for report in scrapper.scrape():
-        print(report)
-        print('\n')
+import report_builder
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        if sys.argv[1] == '-d':
+            deployment.deploy()
+
     scrapper = scrapper.Scrapper()
+    report_builder = report_builder.ReportBuilder()
 
-    if len(sys.argv) > 0 and sys.argv[1] == '-d':
-        deployment.deploy()
-
-    print_reports()
+    report_builder.print_reports(scrapper.scrape())
