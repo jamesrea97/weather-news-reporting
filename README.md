@@ -25,5 +25,5 @@ Once the appropraite dependencies ware installed, Simply run `src/main.py` to ge
 
 
 ## Example
-
-
+This projecrt was used with a combination of a 3-line `bash` script in order to get the report printed out on my person Terminal!
+<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/59763234/102150431-d5d99d80-3e70-11eb-96bb-f8fa3802a919.png">
