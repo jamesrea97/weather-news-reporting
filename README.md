@@ -1,4 +1,4 @@
-# News and Weather report
+# Webscrapping News and Weather Report 
 
 ## Introducton 
 Simple and robust Python-based porject that webscrapes the top headlines from BBC News and Weather in London.
